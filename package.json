@@ -1,0 +1,70 @@
+{
+  "_from": "addict",
+  "_id": "addict@1.1.1",
+  "_inBundle": false,
+  "_integrity": "sha1-WPNBuKr56pBE7hiRh6B2lEL701U=",
+  "_location": "/addict",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "addict",
+    "name": "addict",
+    "escapedName": "addict",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/addict/-/addict-1.1.1.tgz",
+  "_shasum": "58f341b8aaf9ea9044ee189187a0769442fbd355",
+  "_spec": "addict",
+  "_where": "C:\\Users\\Administrator",
+  "author": {
+    "name": "dthree"
+  },
+  "bin": {
+    "addict": "./bin/index.js",
+    "addict-cli": "./bin/index.js"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "ad": "^0.3.1",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "node-ssha256": "^0.1.1",
+    "swagpi": "^0.1.0",
+    "vorpal": "^1.12.0"
+  },
+  "deprecated": false,
+  "description": "Get a full Active Directory REST API in 30 seconds",
+  "devDependencies": {
+    "husky": "^0.14.3",
+    "lint-staged": "^4.0.2",
+    "prettier": "^1.5.3"
+  },
+  "keywords": [
+    "active",
+    "directory",
+    "ldap",
+    "REST",
+    "api",
+    "ad",
+    "addict",
+    "microsoft",
+    "windows",
+    "authentication",
+    "json"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "addict",
+  "scripts": {
+    "precommit": "lint-staged",
+    "startAddict": "nohup node ./bin/index.js --url ldaps://[address]:[port] --user [user]@[domain] --pass [pass] &"
+  },
+  "version": "1.1.1"
+}

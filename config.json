@@ -1,0 +1,9 @@
+{
+  "defaults": {
+    "userObjectClass": "User",
+      "domain":"[domain_name]"
+  },
+  "url": "ldaps://[address]:[port]",
+  "user": "[user]@[domain_name]",
+  "pass": "[pass]"
+}
